@@ -20,7 +20,7 @@ const Navbar = () => {
                     <li><a href={"/"}>Home</a></li>
                     <li><a href={"/aboutpage"}>About</a></li>
                     <li><a href={"/servicesPage"}>Services</a></li>
-                    <li><a href={"/contactPage"}>Contact</a></li>
+                    <li><a href={"/contagePage"}>Contact</a></li>
                 </ul>
                 <div className='hidden md:block space-x-3 cursor-pointer'>
                     {/* <button className='bg-white  rounded-lg w-[100px] py-0.5 text-green-500  outline outline-green-500 outline-1'>Sign In</button> */}

@@ -1,14 +1,13 @@
 import React from 'react'
 import Home from './components/pages/Home'
 import AboutPage from './components/pages/AboutPage'
+import Services from './components/Services'
+import ServicesPage from './components/pages/ServicesPage'
 import Contact from './components/Contact'
 import ContactPage from './components/pages/ContactPage'
-import ServicesPage from './components/pages/ServicesPage'
-import Services from './components/Services'
 import BookAppointment from './components/pages/BookAppointment'
-import { Route, Routes } from 'react-router-dom'
 import PageNotFound from './components/pages/PageNotFound'
-
+import { Route, Routes } from 'react-router-dom'
 
 
 const App = () => {
@@ -20,7 +19,7 @@ const App = () => {
         <Route path="/services" element={<Services />} /> 
         <Route path="/servicesPage" element={<ServicesPage />} /> 
         <Route path="/contact" element={<Contact />} />               
-        <Route path="/contactpage" element={<ContactPage />} /> 
+        <Route path="/contactPage" element={<ContactPage />} /> 
         <Route path="/bookappointment" element={<BookAppointment />} /> 
         <Route path="*" element={<PageNotFound />} />        
       </Routes>
