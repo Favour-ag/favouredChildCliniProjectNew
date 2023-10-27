@@ -43,14 +43,14 @@ const Footer = () => {
                 <p className='hover:text-zinc-300'>News and Articles</p>
                 
             </div>
-            <div className='grid justify-items-center md:justify-items-start cursor-pointer p-5 sm:grid sm:ml-20 sm:mt-4'>
+            <div className='justify-items-center md:justify-items-start cursor-pointer p-5 sm:grid sm:ml-20 sm:mt-4 text-center'>
                 <h1 className='text-xl mb-1 md:mx-auto'>Official Info</h1>
                 <div className='grid justify-items-center gap-1.5 mb-28'>
-                <p className='flex'><span><VscLocation className='text-3xl'/></span>4 Jerry Avenue New Heaven Extension Opposite National  Orthopedic Hospital Abakaliki Road Enugu</p>
+                <p className='flex'><span><VscLocation className='text-3xl'/></span>4 Jerry Avenue New Heaven Extension  Opposite National  Orthopedic Hospital Abakaliki Road Enugu</p>
                 <p className='flex'><span><AiOutlineMail className='text-3xl'/></span>company@gmail.com</p>
                 <p className='flex'><span><IoCallOutline className='text-3xl'/></span>+234 XXX XXX XXX</p>
                 </div>
-                <div className='sticky ml-96'>
+                <div className='sticky ml-60'>
                     <a href={"/contact"}><BsChatDotsFill className='text-5xl' /></a>
             </div>
             </div>
