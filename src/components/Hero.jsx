@@ -1,6 +1,6 @@
 import React from 'react'
 // import doc from '../img/doc.png'
-import banddoc from '../components/img/banddoc.jpg'
+// import banddoc from '../components/img/banddoc.jpg'
 import hlf from '../components/img/hlf.jpg'
 
 const Hero = () => {
