@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className='flex space-x-8 cursor-pointer'>
                 <ul className='space-x-5 hidden md:flex mt-1'>
                     <li><a href={"/"}>Home</a></li>
-                    <li><a href={"/about"}>About</a></li>
+                    <li><a href={"/aboutpage"}>About</a></li>
                     <li><a href={"/servicesPage"}>Services</a></li>
                     <li><a href={"/contactPage"}>Contact</a></li>
                 </ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
                             <div className='w-[120px] h-[150px]  grid justify-items-center rounded-2xl bg-white absolute right-8 text-lg shadow-lg shadow-slate-500'>
                             <ul className='mt-1 grid justify-items-start  cursor-pointer p-3 hover:cursor-pointer'>
                             <li><a href={"/"}>Home</a></li>
-                            <li><a href={"/about"}>About</a></li>
+                            <li><a href={"/aboutpage"}>About</a></li>
                             <li><a href={"/servicesPage"}>Services</a></li>
                             <li><a href={"/contactPage"}>Contact</a></li>
                             </ul>
