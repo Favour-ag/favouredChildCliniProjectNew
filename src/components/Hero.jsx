@@ -1,5 +1,4 @@
 import React from 'react'
-
 import hlf from '../components/img/hlf.jpg'
 
 const Hero = () => {
