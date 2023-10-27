@@ -1,6 +1,5 @@
 import React from 'react'
-// import doc from '../img/doc.png'
-// import banddoc from '../components/img/banddoc.jpg'
+
 import hlf from '../components/img/hlf.jpg'
 
 const Hero = () => {
@@ -8,14 +7,6 @@ const Hero = () => {
     <>
         <div className='px-6 md:px-8 lg:px-24 grid justify-center md:flex md:justify-normal md:flex-row-reverse md:gap-9 text-center md:text-left'>
         <div className='flex justify-center'>
-        {/* <div className='w-[370px] h-[350px] bg-green-500 rounded-full mt-8 sm:w-[450px] sm:h-[450px]'>
-        <div className='absolute z-10 top-60 right-80 sm:right-96 md:right-80'>
-                <div className='w-[130px] h-[80px]  grid justify-items-center rounded-2xl bg-white  text-lg shadow-lg shadow-slate-500 py-3 font-semibold'>
-                    <p>300+</p>
-                    <p>Clients</p>
-                </div>
-            </div>
-        </div> */}
             {/* <img src={banddoc} alt="Hero Image" className='w-[500px] md:w-[1300px] lg:w-[1500px]' /> */}
             <img src={hlf} alt="" className='w-[500px] md:w-[1300px] lg:w-[1500px]' />
             {/* <img src={banddoc} alt="Hero Image" className='absolute h-[450px] w-[330px] top-14 sm:top-8 sm:w-[430px] sm:h-[570px] md:w-[400px] md:h-[560px]' /> */}
