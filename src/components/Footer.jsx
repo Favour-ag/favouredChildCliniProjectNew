@@ -50,7 +50,7 @@ const Footer = () => {
                 <p className='flex'><span><AiOutlineMail className='text-3xl'/></span>company@gmail.com</p>
                 <p className='flex'><span><IoCallOutline className='text-3xl'/></span>+234 XXX XXX XXX</p>
                 </div>
-                <div className='sticky ml-60'>
+                <div className='sticky ml-60 '>
                     <a href={"/contact"}><BsChatDotsFill className='text-5xl' /></a>
             </div>
             </div>

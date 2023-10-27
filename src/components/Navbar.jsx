@@ -10,7 +10,7 @@ const Navbar = () => {
       setIsOpen(!isOpen);
     };
   return (
-    <nav className='p-6 md:px-10 lg:px-24 xl:px-24 text-md '>
+    <nav className='p-6 md:px-10 lg:px-24 xl:px-24 text-md'>
         <div className='flex justify-between'>
             <div className='sticky m-[-40px]'>
             <img src={logo} alt="" className='w-[140px] cursor-pointer' />
