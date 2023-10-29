@@ -6,7 +6,7 @@ const Hero = () => {
     <>
         <div className='px-6 md:px-8 lg:px-24 grid justify-center md:flex md:justify-normal md:flex-row-reverse md:gap-9 text-center md:text-left'>
         <div className='flex justify-center'>
-            <img src={hlf} alt="" className='w-[500px] md:w-[1300px] lg:w-[1500px]' loading='lazy'/>
+            <img src={hlf} alt="Smiley Face" className='w-[500px] md:w-[1300px] lg:w-[1500px]' loading='lazy'/>
         </div>
         <div className='md:justify-items-start mt-3 md:mt-0 gap-2 hidden md:flex justify-center flex-col'>
             <p className='text-5xl md:mt-16 lg:mt-0 '>Your Child's Health,</p>

@@ -6,13 +6,16 @@ import { VscLocation } from 'react-icons/vsc'
 import { AiOutlineMail } from 'react-icons/ai'
 import { IoCallOutline } from 'react-icons/io5'
 import { BsChatDotsFill } from 'react-icons/bs'
+import logo from '../components/img/logo.png'
 
 const Footer = () => {
   return (
     <>
         <div className='bg-green-900 text-white text-lg sm:grid sm:grid-cols-2 md:flex md:gap-5 lg:px-12 lg:py-5 overflow-hidden text center'>
             <div className='grid justify-items-center p-5 md:justify-items-start cursor-pointer'>
-                <h1 className='text-xl mb-2 hover:text-zinc-300'>FavouredChild</h1>
+            <div className='sticky m-[-40px]'>
+            <img src={logo} alt="" className='w-[140px] cursor-pointer' />
+            </div>
                 <p className='hover:text-zinc-300'>Your Child's Health, Our Priority</p>
                 <p className='hover:text-zinc-300'>favourchild@support</p>
                 <p className='hover:text-zinc-300'>Follow Us:</p>
@@ -25,7 +28,7 @@ const Footer = () => {
             <div className='grid justify-items-center p-5 md:justify-items-start cursor-pointer'>
                 <h1 className='text-xl mb-2 hover:text-zinc-300'>Company</h1>
                 <p><a href={"/"} className='hover:text-zinc-300'>Home</a></p>
-                <p><a href={"/about"} className='hover:text-zinc-300'>About</a></p>
+                <p><a href={"/aboutpage"} className='hover:text-zinc-300'>About</a></p>
                 <p><a href={"/services"} className='hover:text-zinc-300'>Services</a></p>
                 <p><a href={"/contactpage"} className='hover:text-zinc-300'>Contact</a></p>
             </div>
@@ -43,14 +46,14 @@ const Footer = () => {
                 <p className='hover:text-zinc-300'>News and Articles</p>
                 
             </div>
-            <div className='justify-items-center md:justify-items-start cursor-pointer p-5 sm:grid sm:ml-20 sm:mt-4 text-center'>
+            <div className='justify-items-center md:justify-items-start cursor-pointer p-5 sm:grid sm:ml-20 md:ml-0 sm:mt-4 text-center'>
                 <h1 className='text-xl mb-1 md:mx-auto'>Official Info</h1>
                 <div className='grid justify-items-center gap-1.5 mb-28'>
                 <p className='flex'><span><VscLocation className='text-3xl'/></span>4 Jerry Avenue New Heaven Extension  Opposite National  Orthopedic Hospital Abakaliki Road Enugu</p>
                 <p className='flex'><span><AiOutlineMail className='text-3xl'/></span>company@gmail.com</p>
                 <p className='flex'><span><IoCallOutline className='text-3xl'/></span>+234 XXX XXX XXX</p>
                 </div>
-                <div className='sticky ml-60 '>
+                <div className='sticky ml-60 rel'>
                     <a href={"/contact"}><BsChatDotsFill className='text-5xl' /></a>
             </div>
             </div>

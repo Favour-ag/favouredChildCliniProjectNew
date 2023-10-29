@@ -8,7 +8,7 @@ import { FaUserNurse } from 'react-icons/fa'
 const About = () => {
   return (
     <>
-        <div className='grid justify-items-center md:flex md:px-6 lg:px-32 md:gap-10 lg:gap-6 mt-10 text-center'>
+        <div className='grid justify-items-center md:flex md:px-6 lg:px-32 md:gap-10 lg:gap-6 mt-10 text-center md:text-left'>
             <img src={mandw} alt="doctors"  className='w-[400px] h-[580px] md:h-[600px] rounded-xl'/>
                 <div className='grid justify-items-center p-6'>
                 <h1 className='text-4xl font-semibold'>About Us</h1>
