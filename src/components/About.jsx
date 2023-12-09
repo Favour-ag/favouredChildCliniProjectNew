@@ -8,13 +8,21 @@ import { FaUserNurse } from 'react-icons/fa'
 const About = () => {
   return (
     <>
-        <div className='grid justify-items-center md:flex md:px-6 lg:px-32 md:gap-10 lg:gap-6 mt-10 text-center md:text-left'>
+        <div className='grid justify-items-center md:flex md:px-6 lg:px-32 md:gap-10 lg:gap-32 mt-10 text-center md:text-left'>
             <img src={mandw} alt="doctors"  className='w-[400px] h-[580px] md:h-[600px] rounded-xl'/>
-                <div className='grid justify-items-center p-6'>
+                <div className='grid justify-items-start p-6 gap-1 lg:gap-0'>
                 <h1 className='text-4xl font-semibold'>About Us</h1>
-                <p className='text-slate-500'>At FavouredChild Clinic, we're dedicated to one remarkable mission: Nurturing Every Child's Potential.</p>
-                <p className='mb-4 text-slate-500'>Our journey began with a simple, yet profound belief – that every child is a bundle of limitless potential, deserving the finest care. We've made it our life's work to transform this belief into a reality.</p>
-                <div className='grid gap-5 md:flex md:flex-wrap'>
+                <p className='text-slate-500 text-justify'>At FavouredChild Clinic, we're dedicated to one remarkable mission: Nurturing Every Child's Potential. Founded on the principles of compassion, expertise, and community engagement, [Your Clinic Name] was born from a shared vision – to redefine pediatric healthcare as a holistic and enriching experience. Our journey began with a commitment to treat each child not just as a patient but as a unique individual, and each family not just as clients but as integral members of our extended family.</p>
+                <p className='mb-4 text-slate-500 text-justify'>Our journey began with a simple, yet profound belief – that every child is a bundle of limitless potential, deserving the finest care. We've made it our life's work to transform this belief into a reality.</p>
+                <p className='text-justify text-slate-500'>
+                Our team is more than a group of medical professionals; we are a family of healers united by a common purpose – the well-being of your child. Every member of our team brings not only extensive medical knowledge and skills but also a genuine passion for creating a nurturing and supportive environment. We believe that healing extends beyond prescriptions and procedures; it involves the warmth of a smile, the reassurance of a comforting touch, and the dedication to making each visit a positive and memorable experience. Step into our clinic, and you'll discover a space designed to spark curiosity and imagination. From vibrant and engaging waiting areas that ease anxieties to examination rooms where children feel comfortable exploring, every detail is crafted with the well-being of your child in mind. We strive to create a haven where laughter, learning, and healing coexist harmoniously.
+                </p>
+                {/* <p className='text-justify text-slate-500'>
+                In the heartbeat of FavouredChild Clinic, your child is not just a patient; they are our priority. We are dedicated to providing personalized, compassionate care that extends beyond medical treatment. Your trust is a precious gift, and we honor it by delivering healthcare that fosters trust, security, and the holistic well-being of your child.
+                </p> */}
+                 <button className='bg-green-400  rounded-lg w-[160px] py-2 text-white '><a href={"/aboutPage"}>Read More...</a></button>
+
+                {/* <div className='grid gap-5 md:flex md:flex-wrap'>
                     <div className='w-[250px] h-[200px] shadow-lg shadow-slate-400 grid justify-items-center rounded-2xl p-4'>
                       <FaHandsHoldingChild  className='text-5xl text-green-400 ' />
                       <p className='text-lg font-semibold'>Child-Centered Excellence</p>
@@ -35,7 +43,7 @@ const About = () => {
                       <p className='text-lg font-semibold'>Experienced Pediatricians</p>
                       <p className=''>Our team of highly qualified and experienced pediatricians is dedicated to providing the best care for your child</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
             </div>
     </>

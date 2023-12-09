@@ -12,7 +12,7 @@ function App() {
     <div className='mt-[-32px] lg:mt-[-60px]'>
     <Navbar />
     </div>
-      <div className="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-md lg:p-12">
+      <div className="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-md lg:p-12 mt-24">
         <h1 className="text-3xl font-bold mb-4 grid justify-items-center">Our Services</h1>
         <p className="mb-6 text-slate-500 text-center md:text-left">
           At FavouredChild Clinic, we are dedicated to providing the highest quality healthcare for children. Our team of experienced and caring professionals offers a range of specialized services to ensure your child's well-being. Explore the services we offer below:

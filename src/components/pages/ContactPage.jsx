@@ -11,7 +11,7 @@ const ContactPage = () => {
     </div>
     <div className="bg-gray-100 p-4">
     <Navbar />
-      <div className="container mx-auto py-8 px-1 lg:px-12">
+      <div className="container mx-auto py-8 px-1 lg:px-12 mt-20">
         <h1 className="text-5xl font-bold mb-6 mt-[-16px] md:mt-[-20px] text-center md:text-left">Contact Us</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
           <div className=''>

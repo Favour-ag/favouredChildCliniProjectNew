@@ -16,7 +16,7 @@ const BookAppointment = () => {
   return (
     <div className="bg-gray-100 p-4">
         <Navbar />
-      <div className="container mx-auto py-8">
+      <div className="container mx-auto py-8 mt-20">
         <h1 className="text-2xl font-bold mb-4">Book an Appointment</h1>
         <form onSubmit={handleFormSubmit} className="grid grid-cols-1 gap-4">
           <div>
