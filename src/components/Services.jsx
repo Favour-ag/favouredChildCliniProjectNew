@@ -55,32 +55,32 @@ function App() {
           </div>
         </div> */}
          <div className='grid justify-center p-6 gap-6 md:flex flex-wrap lg:flex '>
-            <div className='w-[330px] lg:w-[400px] h-[260px]  shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
+            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'>
                 <RiFirstAidKitFill className='text-green-500 text-5xl mt-[-14px]' />
                 <p className='text-xl font-semibold'>Pediatric Check-ups</p>
                 <p className='text-center text-gray-500'>Regular check-ups tailored to your child's age and developmental stage, ensuring they grow up healthy and happy.</p>
             </div>
-            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
+            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'>
                 < FaSyringe className='text-green-500 text-5xl mt-[-16px]' />
                 <p className='text-xl font-semibold'>Immunizations and Vaccinations</p>
                 <p className='text-center text-gray-500'>Providing a shield of protection through timely and essential vaccinations to keep your child safe from preventable diseases.</p>
             </div>
-            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
+            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'>
                 < BiHealth className='text-green-500 text-5xl mt-[-14px]' />
                 <p className='text-xl font-semibold'>Specialized Pediatric Care</p>
                 <p className='text-center text-gray-500'>Expert care for specific childhood conditions, delivered with a blend of compassion and medical expertise</p>
             </div>
-            <div className='w-[330px] lg:w-[400px] h-[260px]  shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
+            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'>
                 <RiParentFill className='text-green-500 text-5xl mt-[-22px] lg:mt-[-14px] ' />
                 <p className='text-xl font-semibold'>Parental Guidance and Support</p>
                 <p className='text-center text-gray-500'>Empowering parents with information and support, because we believe that informed parents are confident parents.</p>
             </div>
-            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
+            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'>
                 < FaChild className='text-green-500 text-5xl mt-[-16px]' />
                 <p className='text-xl font-semibold'>Child-Friendly Atmosphere</p>
                 <p className='text-center text-gray-500'>A welcoming environment designed to make healthcare a positive and enjoyable experience for your little one.</p>
             </div>
-            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
+            <div className='w-[330px] lg:w-[400px] h-[260px] shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300'>
                 < FaHandshake className='text-green-500 text-5xl mt-[-14px]' />
                 <p className='text-xl font-semibold'>Community Outreach Programs</p>
                 <p className='text-center text-gray-500'>Engaging with the community through educational programs and outreach initiatives to promote overall child health.</p>
