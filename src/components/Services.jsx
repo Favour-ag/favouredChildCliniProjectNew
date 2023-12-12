@@ -71,7 +71,7 @@ function App() {
                 <p className='text-center text-gray-500'>Expert care for specific childhood conditions, delivered with a blend of compassion and medical expertise</p>
             </div>
             <div className='w-[330px] lg:w-[400px] h-[260px]  shadow-lg shadow-green-500 grid justify-items-center rounded-2xl p-5 px-10 gap-1'>
-                <RiParentFill className='text-green-500 text-5xl mt-[-14px]' />
+                <RiParentFill className='text-green-500 text-5xl mt-[-22px] lg:mt-[-14px] ' />
                 <p className='text-xl font-semibold'>Parental Guidance and Support</p>
                 <p className='text-center text-gray-500'>Empowering parents with information and support, because we believe that informed parents are confident parents.</p>
             </div>

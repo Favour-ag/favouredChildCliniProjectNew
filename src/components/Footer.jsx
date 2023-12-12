@@ -11,47 +11,52 @@ import logo from '../components/img/logo.png'
 const Footer = () => {
   return (
     <>
-        <div className='bg-green-900 text-white text-lg sm:grid sm:grid-cols-2 md:flex md:gap-5 lg:px-12 lg:py-5 overflow-hidden text center'>
-            <div className='grid justify-items-start lg:justify-items-center p-5 md:justify-items-start cursor-pointer'>
-            <div className='sticky m-[-40px]'>
-            <img src={logo} alt="" className='w-[140px] cursor-pointer' />
+        <div className='bg-green-900  space-y-7 md:space-y-0 text-white text-lg md:flex  overflow-hidden grid sm:grid-cols-2 lg:px-28'>
+            <div className=' grid justify-items-start px-5 pt-5 md:justify-items-start cursor-pointer gap-1'>
+            <div className='m-[-76px] '>
+            <a href="/">
+            <img src={logo} alt="" className='w-[300px] cursor-pointer' />
+            </a>
             </div>
-                <p className='hover:text-zinc-300'>Your Child's Health, Our Priority</p>
-                <p className='hover:text-zinc-300'>favourchild@support</p>
-                <p className='hover:text-zinc-300'>Follow Us:</p>
+                <p className='hover:text-zinc-300 font-semibold'>Follow Us:</p>
                 <div className='flex gap-3'>
                 <span className='hover:text-zinc-300'><BsInstagram /></span>
                 <span className='hover:text-zinc-300'><BsFacebook /></span>
                 <span className='hover:text-zinc-300'><BsTwitter /></span>
                 </div>
             </div>
-            <div className='grid justify-items-start lg:justify-items-centerr p-5 md:justify-items-start cursor-pointer'>
-                <h1 className='text-xl mb-2 hover:text-zinc-300'>Company</h1>
-                <p><a href={"/"} className='hover:text-zinc-300'>Home</a></p>
-                <p><a href={"/aboutpage"} className='hover:text-zinc-300'>About</a></p>
-                <p><a href={"/services"} className='hover:text-zinc-300'>Services</a></p>
-                <p><a href={"/contactpage"} className='hover:text-zinc-300'>Contact</a></p>
+             <div className='px-5 sm:py-5  sm:space-y-2 lg:pt-8'>
+                <h1 className='text-xl font-semibold'>Links</h1>
+                <p><a href={"/"} className='hover:text-zinc-300 hover:text-xl'>Home</a></p>
+                <p><a href={"/aboutpage"} className='hover:text-zinc-300 hover:text-xl'>About</a></p>
+                <p><a href={"/services"} className='hover:text-zinc-300 hover:text-xl'>Services</a></p>
+                <p><a href={"/contactpage"} className='hover:text-zinc-300 hover:text-xl'>Contact</a></p>
             </div>
-            <div className='grid justify-items-start lg:justify-items-center cursor-pointer md:mt-6 ml-12 md:ml-0'>
-                <h1 className='text-xl mb-2 hover:text-zinc-300'>Important</h1>
-                <p><a href={"/about"} className='hover:text-zinc-300'>Our Process</a></p>
-                <p><a href={"/contactpage"} className='hover:text-zinc-300'>Appointment</a></p>
-                <p className='hover:text-zinc-300'>Privacy Policy</p>
-                <p className='hover:text-zinc-300'>Terms and Conditions</p>
+             <div className='px-5 lg:mx-4  sm:space-y-2 lg:pt-7'>
+                <h1 className='text-xl font-semibold'>Others</h1>
+                <p><a href={"/aboutpage"} className='hover:text-zinc-300 hover:text-xl'>Why Us</a></p>
+                <p><a href={"/services"} className='hover:text-zinc-300 hover:text-xl'>Pricing Plan</a></p>
+                <p><a href={"/contactpage"} className='hover:text-zinc-300 hover:text-xl'>News and Articles</a></p>
             </div>
-            <div className='grid justify-items-start lg:justify-items-center p-5 md:justify-items-start cursor-pointer '>
-                <h1 className='text-xl mb-2 '>Quick Link</h1>
-                <p><a href={"/about"} className='hover:text-zinc-300'>Why Us</a></p>
-                <p className='hover:text-zinc-300'>Pricing Plan</p>
-                <p className='hover:text-zinc-300'>News and Articles</p>
-                
-            </div>
-            <div className='grid justify-items-start lg:justify-items-center cursor-pointer p-5 sm:grid sm:ml-20 md:ml-0 sm:mt-4 text-center'>
-                <h1 className='text-xl mb-1 md:mx-auto'>Official Info</h1>
-                <div className='grid justify-items-center gap-1.5 mb-28'>
-                <p className='flex'><span><VscLocation className='text-3xl'/></span>4 Jerry Avenue New Heaven Extension  Opposite National  Orthopedic Hospital Abakaliki Road Enugu</p>
-                <p className='flex'><span><AiOutlineMail className='text-3xl'/></span>company@gmail.com</p>
-                <p className='flex'><span><IoCallOutline className='text-3xl'/></span>+234 XXX XXX XXX</p>
+            
+            
+            <div className='px-5 sm:p-0 lg:pt-8 lg:space-y-2 '>
+                <h1 className='text-xl mb-1 md:mx-auto font-semibold'>Official Info</h1>
+                <div className=''>
+                    <div className='flex gap-3'>
+                    <div>
+                    <VscLocation className='text-4xl md:text-3xl flex flex-wrap'/>
+                    </div>
+                    <p>4 Jerry Avenue New Heaven Extension  Opposite National  Orthopedic Hospital Abakaliki Road Enugu</p>
+                    </div>
+                    <div className='flex gap-3 '>
+                    <AiOutlineMail className='text-3xl'/>
+                    <p>company@gmail.com</p>
+                    </div>
+                    <div className='flex gap-3 '>
+                    <IoCallOutline className='text-3xl'/>
+                    <p>+234 XXX XXX XXX</p>
+                    </div>
                 </div>
                 
                 <div className='fixed bottom-10 right-4'>
@@ -59,7 +64,9 @@ const Footer = () => {
                 </div>
                 
                 </div>
-            
+            <div className='text-center mb-3'>
+                <p>Copyright © 2023. - All Rights Reserved</p>
+            </div>
         </div>
     </>
   )

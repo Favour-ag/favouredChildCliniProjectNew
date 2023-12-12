@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { RxCross1 } from 'react-icons/rx'
 import logo from '../components/img/logo.png'
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +19,9 @@ const Navbar = () => {
             </div>
             <div className='flex space-x-8 cursor-pointer mt-2'>
                 <ul className='space-x-5 hidden md:flex mt-1 no-underline'>
-                    <li className=''><a className='font-bold' href="/">Home</a></li>
+                    <li className=''><a className='font-bold' href="/">
+                        {/* <MdKeyboardDoubleArrowRight /> */}
+                        Home</a></li>
                     <li><a className='font-bold' href={"/aboutpage"}>About</a></li>
                     <li><a className='font-bold' href={"/servicesPage"}>Services</a></li>
                     <li><a className='font-bold' href={"/contactPage"}>Contact</a></li>
@@ -30,7 +34,7 @@ const Navbar = () => {
                 <button className='flex' onClick={toggleMenu}>
                     {isOpen ? (
                         <div>
-                            <RxCross1 className='' />
+                            <RxCross1 className=' text-3xl font-extrabold' />
                             <div className='w-[120px] h-[150px]  grid justify-items-center  rounded-2xl bg-white absolute right-8 text-lg shadow-lg shadow-slate-500 '>
                             <ul className='mt-1 grid justify-items-start  cursor-pointer p-3 hover:cursor-pointer'>
                             <li><a href={"/"}>Home</a></li>
@@ -40,7 +44,7 @@ const Navbar = () => {
                             </ul>
                             </div>
                         </div>
-                    ):     <FaBars />
+                    ):     <FaBars className='text-3xl text-gray-700' />
                     }
                 </button>
                 </div>

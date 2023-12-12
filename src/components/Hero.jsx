@@ -1,5 +1,5 @@
 import React from 'react'
-import hlf from '../components/img/hlf.jpg'
+// import hlf from '../components/img/hlf.jpg'
 import HeroSlider from './HeroSlider'
 
 
@@ -7,7 +7,7 @@ import HeroSlider from './HeroSlider'
 const Hero = () => {
   return (
     <>
-      <div className='w-full '>
+      <div className='w-full'>
       <HeroSlider />
       </div>
         {/* <div className='px-6 md:px-8 lg:px-24 grid justify-center md:flex md:justify-normal md:flex-row-reverse md:gap-9 text-center md:text-left w-full'> */}

@@ -14,7 +14,7 @@ const HeroSlider = () => {
   return (
     <>
     <div className='px-6 md:px-8 lg:px-24 grid justify-center md:flex md:justify-normal md:flex-row-reverse md:gap-9 text-center md:text-left w-full'></div>
-    <div className='my-[0.5px]'>
+    <div className=''>
     <Carousel>
       <Carousel.Item interval={1000}>
         <img className='object-cover h-[425px] lg:h-[500px] w-full' src={img1} alt="front desk" />
