@@ -9,8 +9,7 @@ const About = () => {
     <>
     <div className="bg-gray-100 w-full">
     <Navbar />
-      <div className="container mx-auto py-8 px-1 lg:px-10">
-        <h1 className="text-3xl font-bold mb-4 mt-20">About Our Clinic</h1>
+      <div className="container mx-auto py-8 px-1 lg:px-10 pt-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <img
@@ -22,11 +21,6 @@ const About = () => {
               National Orthopedic Hospital Abakaliki Road Enugu</p>
           </div>
           <div className='text-md text-center md:text-left'>
-            <p>Welcome to FavouredChild Clinic! We are dedicated to providing top-quality healthcare for children and our community.
-            </p>
-            <p>
-            FavouredChild Clinic has been serving the healthcare needs of children over the years. Our journey started with a passion for child well-being and a commitment to making a difference in their lives.
-            </p>
             <h2 className="text-3xl font-semibold mb-2">Our Mission</h2>
           <p>
             Our mission at FavouredChild Clinic is to provide compassionate and specialized healthcare for children, ensuring their well-being and happiness. We are committed to offering personalized care and fostering a warm and welcoming environment for our young patients.
