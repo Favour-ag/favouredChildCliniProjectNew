@@ -19,12 +19,12 @@ const Navbar = () => {
             </div>
             <div className='flex space-x-8 cursor-pointer mt-2'>
                 <ul className='space-x-5 hidden md:flex mt-1 no-underline'>
-                    <li className=''><a className='font-bold' href="/">
+                    <li className=''><a className='font-bold  active:text-white' href="/">
                         {/* <MdKeyboardDoubleArrowRight /> */}
                         Home</a></li>
-                    <li><a className='font-bold' href={"/aboutpage"}>About</a></li>
-                    <li><a className='font-bold' href={"/servicesPage"}>Services</a></li>
-                    <li><a className='font-bold' href={"/contactPage"}>Contact</a></li>
+                    <li><a className='font-bold active:text-white' href={"/aboutpage"}>About</a></li>
+                    <li><a className='font-bold active:text-white' href={"/servicesPage"}>Services</a></li>
+                    <li><a className='font-bold active:text-white' href={"/contactPage"}>Contact</a></li>
                 </ul>
                 <div className='hidden md:block space-x-3 cursor-pointer'>
                     {/* <button className='bg-white  rounded-lg w-[100px] py-0.5 text-green-500  outline outline-green-500 outline-1'>Sign In</button> */}
