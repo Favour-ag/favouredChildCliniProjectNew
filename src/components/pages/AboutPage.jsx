@@ -10,7 +10,7 @@ const About = () => {
     <div className="bg-gray-100 w-full">
     <Navbar />
       <div className="container mx-auto py-8 px-1 lg:px-10">
-        <h1 className="text-3xl font-bold mb-4">About Our Clinic</h1>
+        <h1 className="text-3xl font-bold mb-4 mt-20">About Our Clinic</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <img
