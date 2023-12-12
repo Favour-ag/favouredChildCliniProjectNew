@@ -11,7 +11,7 @@ const About = () => {
         <div className='grid justify-items-center md:flex md:px-6 lg:px-32 md:gap-10 lg:gap-32 mt-10 text-center md:text-left'>
             <img src={mandw} alt="doctors"  className='w-[400px] h-[580px] md:h-[600px] rounded-xl'/>
                 <div className='grid justify-items-start p-6 gap-1 lg:gap-0'>
-                <h1 className='text-4xl font-semibold'>About Us</h1>
+                <h1 className='text-4xl font-semibold'>What we do</h1>
                 <p className='text-slate-500 text-justify'>At FavouredChild Clinic, we're dedicated to one remarkable mission: Nurturing Every Child's Potential. Founded on the principles of compassion, expertise, and community engagement,Favoured Child Clinic was born from a shared vision – to redefine pediatric healthcare as a holistic and enriching experience. Our journey began with a commitment to treat each child not just as a patient but as a unique individual, and each family not just as clients but as integral members of our extended family.</p>
                 <p className=' text-slate-500 text-justify'>Our journey began with a simple, yet profound belief – that every child is a bundle of limitless potential, deserving the finest care. We've made it our life's work to transform this belief into a reality.</p>
                 <p className='text-justify text-slate-500'>

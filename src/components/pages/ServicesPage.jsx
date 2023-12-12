@@ -9,9 +9,9 @@ function App() {
     <>
    
     <div className="bg-gray-100 w-full">
-    <div className='absolute top-3'>
-    <Navbar />
-    </div>
+      <div className='absolute top-3'>
+      <Navbar />
+      </div>
       <div className="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-md lg:p-12 mt-24">
         <h1 className="text-3xl font-bold mb-4 grid justify-items-center">Our Services</h1>
         <p className="mb-6 text-slate-500 text-center md:text-left">
