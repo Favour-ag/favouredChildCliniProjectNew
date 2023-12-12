@@ -53,7 +53,7 @@ const Footer = () => {
                     <AiOutlineMail className='text-3xl'/>
                     <p>company@gmail.com</p>
                     </div>
-                    <div className='flex gap-3 '>
+                    <div className='flex gap-3 pb-3'>
                     <IoCallOutline className='text-3xl'/>
                     <p>+234 XXX XXX XXX</p>
                     </div>
@@ -62,11 +62,7 @@ const Footer = () => {
                 <div className='fixed bottom-10 right-4'>
                     <a href={"/contact"}><BsChatDotsFill className='text-6xl text-gray-400' /></a>
                 </div>
-                
                 </div>
-            <div className='text-center mb-3'>
-                <p>Copyright © 2023. - All Rights Reserved</p>
-            </div>
         </div>
     </>
   )

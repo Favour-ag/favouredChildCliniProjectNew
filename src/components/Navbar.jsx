@@ -36,7 +36,7 @@ const Navbar = () => {
                         <div>
                             <RxCross1 className=' text-3xl font-extrabold' />
                             <div className='w-[120px] h-[150px]  grid justify-items-center  rounded-2xl bg-white absolute right-8 text-lg shadow-lg shadow-slate-500 '>
-                            <ul className='mt-1 grid justify-items-start  cursor-pointer p-3 hover:cursor-pointer'>
+                            <ul className='mt-1 grid justify-items-start  cursor-pointer p-3 hover:cursor-pointer '>
                             <li><a href={"/"}>Home</a></li>
                             <li><a href={"/aboutpage"}>About</a></li>
                             <li><a href={"/servicesPage"}>Services</a></li>
