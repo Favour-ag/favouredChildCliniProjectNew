@@ -8,8 +8,8 @@ function App() {
   return (
     <>
    
-    <div className="bg-gray-100 min-h-screen p-8 lg:pt-16">
-    <div className='mt-[-32px] lg:mt-[-60px]'>
+    <div className="bg-gray-100 w-full">
+    <div className='absolute top-3'>
     <Navbar />
     </div>
       <div className="max-w-4xl mx-auto bg-white p-4 rounded-lg shadow-md lg:p-12 mt-24">
